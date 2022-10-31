@@ -47,7 +47,7 @@ _fork of [LinguaLeo/expert-sender-api](https://github.com/LinguaLeo/expert-sende
 ## Installation
 The recommended way to install is through [Composer](http://getcomposer.org).
 ```bash
-composer require citilink/expert-sender-api
+composer require alexeyibraimov/expert-sender-api-1
 ```
 
 ## Usage
