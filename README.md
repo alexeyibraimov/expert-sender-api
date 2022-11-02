@@ -1,3 +1,5 @@
+Для использования локально, в части только подписки/отписки.
+
 Expert Sender Api
 =================
 [![Build Status](https://travis-ci.org/alexeyibraimovru/expert-sender-api.svg?branch=master)](https://travis-ci.org/alexeyibraimovru/expert-sender-api)
