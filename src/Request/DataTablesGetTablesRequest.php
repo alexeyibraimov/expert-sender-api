@@ -1,16 +1,16 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Request;
+namespace AlexeyIbraimov\ExpertSenderApi\Request;
 
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
-use Citilink\ExpertSenderApi\RequestInterface;
+use AlexeyIbraimov\ExpertSenderApi\Enum\HttpMethod;
+use AlexeyIbraimov\ExpertSenderApi\RequestInterface;
 use Webmozart\Assert\Assert;
 
 /**
  * Get list of tables request
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class DataTablesGetTablesRequest implements RequestInterface
 {

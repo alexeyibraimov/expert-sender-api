@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Model\DataTablesGetTablesSummaryResponse;
+namespace AlexeyIbraimov\ExpertSenderApi\Model\DataTablesGetTablesSummaryResponse;
 
 /**
  * Table data
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 abstract class AbstractTableData
 {

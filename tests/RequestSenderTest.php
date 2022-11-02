@@ -1,17 +1,17 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests;
+namespace AlexeyIbraimov\ExpertSenderApi\Tests;
 
-use Citilink\ExpertSenderApi\Enum\SubscribersGetRequest\DataOption;
-use Citilink\ExpertSenderApi\Event\RequestExceptionThrown;
-use Citilink\ExpertSenderApi\Event\ResponseReceivedEvent;
-use Citilink\ExpertSenderApi\Model\ErrorMessage;
-use Citilink\ExpertSenderApi\Model\SubscribersPostRequest\Identifier;
-use Citilink\ExpertSenderApi\Model\SubscribersPostRequest\SubscriberInfo;
-use Citilink\ExpertSenderApi\Request\SubscribersGetRequest;
-use Citilink\ExpertSenderApi\Request\SubscribersPostRequest;
-use Citilink\ExpertSenderApi\RequestSender;
+use AlexeyIbraimov\ExpertSenderApi\Enum\SubscribersGetRequest\DataOption;
+use AlexeyIbraimov\ExpertSenderApi\Event\RequestExceptionThrown;
+use AlexeyIbraimov\ExpertSenderApi\Event\ResponseReceivedEvent;
+use AlexeyIbraimov\ExpertSenderApi\Model\ErrorMessage;
+use AlexeyIbraimov\ExpertSenderApi\Model\SubscribersPostRequest\Identifier;
+use AlexeyIbraimov\ExpertSenderApi\Model\SubscribersPostRequest\SubscriberInfo;
+use AlexeyIbraimov\ExpertSenderApi\Request\SubscribersGetRequest;
+use AlexeyIbraimov\ExpertSenderApi\Request\SubscribersPostRequest;
+use AlexeyIbraimov\ExpertSenderApi\RequestSender;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ConnectException;
 use GuzzleHttp\Exception\RequestException;
@@ -26,7 +26,7 @@ use Symfony\Component\EventDispatcher\EventDispatcher;
 /**
  * RequestSenderTest
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class RequestSenderTest extends \PHPUnit_Framework_TestCase
 {

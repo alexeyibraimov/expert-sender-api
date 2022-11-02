@@ -1,15 +1,15 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi;
+namespace AlexeyIbraimov\ExpertSenderApi;
 
-use Citilink\ExpertSenderApi\Model\ErrorMessage;
+use AlexeyIbraimov\ExpertSenderApi\Model\ErrorMessage;
 use Psr\Http\Message\StreamInterface;
 
 /**
  * Response of ExpertSender API
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 interface ResponseInterface
 {

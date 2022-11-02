@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Model\TriggersPostRequest;
+namespace AlexeyIbraimov\ExpertSenderApi\Model\TriggersPostRequest;
 
 use Webmozart\Assert\Assert;
 
 /**
  * Receiver of trigger message
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class Receiver
 {

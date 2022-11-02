@@ -1,15 +1,15 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Response;
+namespace AlexeyIbraimov\ExpertSenderApi\Response;
 
-use Citilink\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
-use Citilink\ExpertSenderApi\SpecificXmlMethodResponse;
+use AlexeyIbraimov\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
+use AlexeyIbraimov\ExpertSenderApi\SpecificXmlMethodResponse;
 
 /**
  * Response of POST request in transactions resource
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class TransactionalPostResponse extends SpecificXmlMethodResponse
 {

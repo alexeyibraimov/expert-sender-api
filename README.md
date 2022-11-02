@@ -1,6 +1,6 @@
 Expert Sender Api
 =================
-[![Build Status](https://travis-ci.org/citilinkru/expert-sender-api.svg?branch=master)](https://travis-ci.org/citilinkru/expert-sender-api)
+[![Build Status](https://travis-ci.org/alexeyibraimovru/expert-sender-api.svg?branch=master)](https://travis-ci.org/alexeyibraimovru/expert-sender-api)
 
 [PHP API](https://sites.google.com/a/expertsender.com/api-documentation/) for [Expert Sender](http://www.expertsender.com/)
 
@@ -56,12 +56,12 @@ composer require alexeyibraimov/expert-sender-api-1
 // ...
 
 use GuzzleHttp\Client;
-use Citilink\ExpertSenderApi\RequestSender;
-use Citilink\ExpertSenderApi\ExpertSenderApi;
-use Citilink\ExpertSenderApi\Model\SubscribersRequest\SubscriberInfo;
-use Citilink\ExpertSenderApi\Model\SubscribersRequest\Options;
-use Citilink\ExpertSenderApi\Model\SubscribersPostRequest\Identifier;
-use Citilink\ExpertSenderApi\Enum\SubscribersPostRequest\Mode;
+use AlexeyIbraimov\ExpertSenderApi\RequestSender;
+use AlexeyIbraimov\ExpertSenderApi\ExpertSenderApi;
+use AlexeyIbraimov\ExpertSenderApi\Model\SubscribersRequest\SubscriberInfo;
+use AlexeyIbraimov\ExpertSenderApi\Model\SubscribersRequest\Options;
+use AlexeyIbraimov\ExpertSenderApi\Model\SubscribersPostRequest\Identifier;
+use AlexeyIbraimov\ExpertSenderApi\Enum\SubscribersPostRequest\Mode;
 
 // ...
 
@@ -93,8 +93,8 @@ if ($addResult->isOk()) {
 ### Create API
 ```php
 use GuzzleHttp\Client;
-use Citilink\ExpertSenderApi\RequestSender;
-use Citilink\ExpertSenderApi\ExpertSenderApi;
+use AlexeyIbraimov\ExpertSenderApi\RequestSender;
+use AlexeyIbraimov\ExpertSenderApi\ExpertSenderApi;
 
 // ...
 
@@ -127,9 +127,9 @@ if ($response->isOk()) {
 ```php
 // ...
 
-use Citilink\ExpertSenderApi\Model\TransactionalPostRequest\Receiver;
-use Citilink\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
-use Citilink\ExpertSenderApi\Model\TransactionalPostRequest\Attachment;
+use AlexeyIbraimov\ExpertSenderApi\Model\TransactionalPostRequest\Receiver;
+use AlexeyIbraimov\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
+use AlexeyIbraimov\ExpertSenderApi\Model\TransactionalPostRequest\Attachment;
 
 // ...
 
@@ -168,7 +168,7 @@ if ($response->isOk()) {
 ```php
 // ...
 
-use Citilink\ExpertSenderApi\Model\TriggersPostRequest\Receiver;
+use AlexeyIbraimov\ExpertSenderApi\Model\TriggersPostRequest\Receiver;
 
 // ...
 
@@ -211,9 +211,9 @@ $eventsHistoryResponse = $api->subscribers()->getEventsHistory($subscriberEmail)
 ```php
 // ...
 
-use Citilink\ExpertSenderApi\Model\SubscribersPostRequest\Options;
-use Citilink\ExpertSenderApi\Model\SubscribersPostRequest\Identifier;
-use Citilink\ExpertSenderApi\Enum\SubscribersPostRequest\Mode;
+use AlexeyIbraimov\ExpertSenderApi\Model\SubscribersPostRequest\Options;
+use AlexeyIbraimov\ExpertSenderApi\Model\SubscribersPostRequest\Identifier;
+use AlexeyIbraimov\ExpertSenderApi\Enum\SubscribersPostRequest\Mode;
 
 // ...
 
@@ -302,8 +302,8 @@ $api->subscribers()->deleteByEmail($subscriberEmail);
 ```php
 // ...
 
-use Citilink\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\RemoveType;
-use Citilink\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\Option;
+use AlexeyIbraimov\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\RemoveType;
+use AlexeyIbraimov\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\Option;
 
 // ...
 
@@ -421,7 +421,7 @@ $goals = $api->subscribers()->getSubscriberActivity()->getGoals(
 [documentation](https://sites.google.com/a/expertsender.com/api-documentation/methods/get-bounces-list)
 ```php
 // ...
-use Citilink\ExpertSenderApi\Enum\BouncesGetRequest\BounceType;
+use AlexeyIbraimov\ExpertSenderApi\Enum\BouncesGetRequest\BounceType;
 // ...
 $startDate = new \DateTime('2015-01-01');
 $endDate = new \DateTime('2016-01-01');
@@ -486,10 +486,10 @@ if ($response->isOk()) {
 [documentation](https://sites.google.com/a/expertsender.com/api-documentation/methods/datatables/get-data)
 ```php
 // ...
-use Citilink\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Direction;
-use Citilink\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
-use Citilink\ExpertSenderApi\Model\WhereCondition;
-use Citilink\ExpertSenderApi\Model\DataTablesGetDataPostRequest\OrderByRule;
+use AlexeyIbraimov\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Direction;
+use AlexeyIbraimov\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
+use AlexeyIbraimov\ExpertSenderApi\Model\WhereCondition;
+use AlexeyIbraimov\ExpertSenderApi\Model\DataTablesGetDataPostRequest\OrderByRule;
 // ...
 // limit is optional, and null by default
 $limit = 30;
@@ -530,8 +530,8 @@ if ($response->isOk()) {
 [documentation](https://sites.google.com/a/expertsender.com/api-documentation/methods/datatables/count-rows)
 ```php
 // ...
-use Citilink\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
-use Citilink\ExpertSenderApi\Model\WhereCondition;
+use AlexeyIbraimov\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
+use AlexeyIbraimov\ExpertSenderApi\Model\WhereCondition;
 // ...
 $response = $api->dataTables()->getRowsCount(
     'table-name',
@@ -565,8 +565,8 @@ Use [add multiple rows method](#add-multiple-rows) to insert one row
 [documentation](https://sites.google.com/a/expertsender.com/api-documentation/methods/datatables/add-multiple-rows)
 ```php
 // ...
-use Citilink\ExpertSenderApi\Model\Column;
-use Citilink\ExpertSenderApi\Model\DataTablesAddMultipleRowsPostRequest\Row;
+use AlexeyIbraimov\ExpertSenderApi\Model\Column;
+use AlexeyIbraimov\ExpertSenderApi\Model\DataTablesAddMultipleRowsPostRequest\Row;
 // ...
 $response = $api->dataTables()->addRows(
     // table name to insert rows
@@ -605,7 +605,7 @@ if ($response->isOk()) {
 [documentation](https://sites.google.com/a/expertsender.com/api-documentation/methods/datatables/update-row)
 ```php
 // ...
-use Citilink\ExpertSenderApi\Model\Column;
+use AlexeyIbraimov\ExpertSenderApi\Model\Column;
 // ...
 $response = $api->dataTables()->updateRow(
     // table name 
@@ -637,7 +637,7 @@ if ($response->isOk()) {
 [documentation](https://sites.google.com/a/expertsender.com/api-documentation/methods/datatables/delete-row)
 ```php
 // ...
-use Citilink\ExpertSenderApi\Model\Column;
+use AlexeyIbraimov\ExpertSenderApi\Model\Column;
 // ...
 $response = $api->dataTables()->deleteOneRow(
     // table name to update rows
@@ -663,8 +663,8 @@ if ($response->isOk()) {
 [documentation](https://sites.google.com/a/expertsender.com/api-documentation/methods/datatables/delete-rows)
 ```php
 // ...
-use Citilink\ExpertSenderApi\Model\DataTablesDeleteRowsPostRequest\Filter;
-use Citilink\ExpertSenderApi\Enum\DataTablesDeleteRowsPostRequest\FilterOperator;
+use AlexeyIbraimov\ExpertSenderApi\Model\DataTablesDeleteRowsPostRequest\Filter;
+use AlexeyIbraimov\ExpertSenderApi\Enum\DataTablesDeleteRowsPostRequest\FilterOperator;
 // ...
 $response = $api->dataTables()->deleteRows(
     'table-name',

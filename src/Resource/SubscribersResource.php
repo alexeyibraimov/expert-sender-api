@@ -1,35 +1,35 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Resource;
+namespace AlexeyIbraimov\ExpertSenderApi\Resource;
 
-use Citilink\ExpertSenderApi\AbstractResource;
-use Citilink\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\Option;
-use Citilink\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\RemoveType;
-use Citilink\ExpertSenderApi\Enum\SubscribersGetRequest\DataOption;
-use Citilink\ExpertSenderApi\Model\SubscribersPostRequest\Options;
-use Citilink\ExpertSenderApi\Model\SubscribersPostRequest\SubscriberInfo;
-use Citilink\ExpertSenderApi\Request\GetSegmentSizeGetRequest;
-use Citilink\ExpertSenderApi\Request\RemovedSubscriberGetRequest;
-use Citilink\ExpertSenderApi\Request\SnoozedSubscribersGetRequest;
-use Citilink\ExpertSenderApi\Request\SubscribersDeleteRequest;
-use Citilink\ExpertSenderApi\Request\SubscribersGetRequest;
-use Citilink\ExpertSenderApi\Request\SubscribersPostRequest;
-use Citilink\ExpertSenderApi\RequestSenderInterface;
-use Citilink\ExpertSenderApi\Response\GetSegmentSizeGetResponse;
-use Citilink\ExpertSenderApi\Response\RemovedSubscribersGetResponse;
-use Citilink\ExpertSenderApi\Response\SnoozedSubscribersGetResponse;
-use Citilink\ExpertSenderApi\Response\SubscribersGetEventsHistoryResponse;
-use Citilink\ExpertSenderApi\Response\SubscribersGetFullResponse;
-use Citilink\ExpertSenderApi\Response\SubscribersGetLongResponse;
-use Citilink\ExpertSenderApi\Response\SubscribersGetShortResponse;
-use Citilink\ExpertSenderApi\Response\SubscribersPostResponse;
-use Citilink\ExpertSenderApi\ResponseInterface;
+use AlexeyIbraimov\ExpertSenderApi\AbstractResource;
+use AlexeyIbraimov\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\Option;
+use AlexeyIbraimov\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\RemoveType;
+use AlexeyIbraimov\ExpertSenderApi\Enum\SubscribersGetRequest\DataOption;
+use AlexeyIbraimov\ExpertSenderApi\Model\SubscribersPostRequest\Options;
+use AlexeyIbraimov\ExpertSenderApi\Model\SubscribersPostRequest\SubscriberInfo;
+use AlexeyIbraimov\ExpertSenderApi\Request\GetSegmentSizeGetRequest;
+use AlexeyIbraimov\ExpertSenderApi\Request\RemovedSubscriberGetRequest;
+use AlexeyIbraimov\ExpertSenderApi\Request\SnoozedSubscribersGetRequest;
+use AlexeyIbraimov\ExpertSenderApi\Request\SubscribersDeleteRequest;
+use AlexeyIbraimov\ExpertSenderApi\Request\SubscribersGetRequest;
+use AlexeyIbraimov\ExpertSenderApi\Request\SubscribersPostRequest;
+use AlexeyIbraimov\ExpertSenderApi\RequestSenderInterface;
+use AlexeyIbraimov\ExpertSenderApi\Response\GetSegmentSizeGetResponse;
+use AlexeyIbraimov\ExpertSenderApi\Response\RemovedSubscribersGetResponse;
+use AlexeyIbraimov\ExpertSenderApi\Response\SnoozedSubscribersGetResponse;
+use AlexeyIbraimov\ExpertSenderApi\Response\SubscribersGetEventsHistoryResponse;
+use AlexeyIbraimov\ExpertSenderApi\Response\SubscribersGetFullResponse;
+use AlexeyIbraimov\ExpertSenderApi\Response\SubscribersGetLongResponse;
+use AlexeyIbraimov\ExpertSenderApi\Response\SubscribersGetShortResponse;
+use AlexeyIbraimov\ExpertSenderApi\Response\SubscribersPostResponse;
+use AlexeyIbraimov\ExpertSenderApi\ResponseInterface;
 
 /**
  * Subscribers resource
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class SubscribersResource extends AbstractResource
 {

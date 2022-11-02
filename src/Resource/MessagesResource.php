@@ -1,22 +1,22 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Resource;
+namespace AlexeyIbraimov\ExpertSenderApi\Resource;
 
-use Citilink\ExpertSenderApi\AbstractResource;
-use Citilink\ExpertSenderApi\Model\TransactionalPostRequest\Attachment;
-use Citilink\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
-use Citilink\ExpertSenderApi\Model\TriggersPostRequest\Receiver;
-use Citilink\ExpertSenderApi\Model\TransactionalPostRequest\Receiver as TransactionalReceiver;
-use Citilink\ExpertSenderApi\Request\TransactionalPostRequest;
-use Citilink\ExpertSenderApi\Request\TriggersPostRequest;
-use Citilink\ExpertSenderApi\Response\TransactionalPostResponse;
-use Citilink\ExpertSenderApi\ResponseInterface;
+use AlexeyIbraimov\ExpertSenderApi\AbstractResource;
+use AlexeyIbraimov\ExpertSenderApi\Model\TransactionalPostRequest\Attachment;
+use AlexeyIbraimov\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
+use AlexeyIbraimov\ExpertSenderApi\Model\TriggersPostRequest\Receiver;
+use AlexeyIbraimov\ExpertSenderApi\Model\TransactionalPostRequest\Receiver as TransactionalReceiver;
+use AlexeyIbraimov\ExpertSenderApi\Request\TransactionalPostRequest;
+use AlexeyIbraimov\ExpertSenderApi\Request\TriggersPostRequest;
+use AlexeyIbraimov\ExpertSenderApi\Response\TransactionalPostResponse;
+use AlexeyIbraimov\ExpertSenderApi\ResponseInterface;
 
 /**
  * Messages resource
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class MessagesResource extends AbstractResource
 {

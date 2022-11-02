@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi;
+namespace AlexeyIbraimov\ExpertSenderApi;
 
 use Psr\Http\Message\StreamInterface;
 
 /**
  * Specific response which contains xml content
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class SpecificXmlMethodResponse implements ResponseInterface
 {

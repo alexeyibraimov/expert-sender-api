@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Model\ActivitiesGetResponse;
+namespace AlexeyIbraimov\ExpertSenderApi\Model\ActivitiesGetResponse;
 
 /**
  * Open activity
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class OpenActivity extends AbstractActivity
 {

@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi;
+namespace AlexeyIbraimov\ExpertSenderApi;
 
-use Citilink\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
+use AlexeyIbraimov\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
 use function GuzzleHttp\Psr7\copy_to_stream;
 use GuzzleHttp\Psr7\Stream;
 use Psr\Http\Message\StreamInterface;
@@ -11,7 +11,7 @@ use Psr\Http\Message\StreamInterface;
 /**
  * Specific response which contains csv content
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class SpecificCsvMethodResponse implements ResponseInterface
 {

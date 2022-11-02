@@ -1,15 +1,15 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests;
+namespace AlexeyIbraimov\ExpertSenderApi\Tests;
 
-use Citilink\ExpertSenderApi\Response;
+use AlexeyIbraimov\ExpertSenderApi\Response;
 use PHPUnit\Framework\Assert;
 
 /**
  * ResponseTest
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class ResponseTest extends \PHPUnit_Framework_TestCase
 {

@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Model\SubscribersGetResponse;
+namespace AlexeyIbraimov\ExpertSenderApi\Model\SubscribersGetResponse;
 
-use Citilink\ExpertSenderApi\Enum\SubscribersResponse\StateOnListStatus;
+use AlexeyIbraimov\ExpertSenderApi\Enum\SubscribersResponse\StateOnListStatus;
 
 /**
  * Subscriber's state on list
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class StateOnList
 {

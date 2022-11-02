@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Exception;
+namespace AlexeyIbraimov\ExpertSenderApi\Exception;
 
 /**
  * Exception when response content is not valid xml and xml parsers can't work with it
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class NotValidXmlException extends ParseResponseException
 {

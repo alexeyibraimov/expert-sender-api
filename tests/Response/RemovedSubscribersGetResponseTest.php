@@ -1,22 +1,22 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Response;
+namespace AlexeyIbraimov\ExpertSenderApi\Tests\Response;
 
-use Citilink\ExpertSenderApi\Enum\DataType;
-use Citilink\ExpertSenderApi\Enum\SubscriberPropertySource;
-use Citilink\ExpertSenderApi\Enum\SubscribersResponse\SubscriberPropertyType;
-use Citilink\ExpertSenderApi\Model\RemovedSubscribersGetResponse\RemovedSubscriber;
-use Citilink\ExpertSenderApi\Model\SubscriberData;
-use Citilink\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberProperty;
-use Citilink\ExpertSenderApi\Response;
-use Citilink\ExpertSenderApi\Response\RemovedSubscribersGetResponse;
+use AlexeyIbraimov\ExpertSenderApi\Enum\DataType;
+use AlexeyIbraimov\ExpertSenderApi\Enum\SubscriberPropertySource;
+use AlexeyIbraimov\ExpertSenderApi\Enum\SubscribersResponse\SubscriberPropertyType;
+use AlexeyIbraimov\ExpertSenderApi\Model\RemovedSubscribersGetResponse\RemovedSubscriber;
+use AlexeyIbraimov\ExpertSenderApi\Model\SubscriberData;
+use AlexeyIbraimov\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberProperty;
+use AlexeyIbraimov\ExpertSenderApi\Response;
+use AlexeyIbraimov\ExpertSenderApi\Response\RemovedSubscribersGetResponse;
 use PHPUnit\Framework\Assert;
 
 /**
  * RemovedSubscribersGetResponseTest
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class RemovedSubscribersGetResponseTest extends \PHPUnit_Framework_TestCase
 {

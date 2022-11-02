@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Request;
+namespace AlexeyIbraimov\ExpertSenderApi\Tests\Request;
 
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
-use Citilink\ExpertSenderApi\Enum\SubscribersGetRequest\DataOption;
-use Citilink\ExpertSenderApi\Request\SubscribersGetRequest;
+use AlexeyIbraimov\ExpertSenderApi\Enum\HttpMethod;
+use AlexeyIbraimov\ExpertSenderApi\Enum\SubscribersGetRequest\DataOption;
+use AlexeyIbraimov\ExpertSenderApi\Request\SubscribersGetRequest;
 use PHPUnit\Framework\Assert;
 
 class SubscribersGetRequestTest extends \PHPUnit_Framework_TestCase

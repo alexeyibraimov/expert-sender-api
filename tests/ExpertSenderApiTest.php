@@ -1,16 +1,16 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests;
+namespace AlexeyIbraimov\ExpertSenderApi\Tests;
 
-use Citilink\ExpertSenderApi\Enum\SubscribersPostRequest\Mode;
-use Citilink\ExpertSenderApi\Model\BouncesGetResponse\Bounce;
-use Citilink\ExpertSenderApi\Model\SubscribersPostRequest\Identifier;
-use Citilink\ExpertSenderApi\Model\TransactionalPostRequest\Receiver;
-use Citilink\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
-use Citilink\ExpertSenderApi\ExpertSenderApi;
-use Citilink\ExpertSenderApi\Model\SubscribersPostRequest\SubscriberInfo;
-use Citilink\ExpertSenderApi\RequestSender;
+use AlexeyIbraimov\ExpertSenderApi\Enum\SubscribersPostRequest\Mode;
+use AlexeyIbraimov\ExpertSenderApi\Model\BouncesGetResponse\Bounce;
+use AlexeyIbraimov\ExpertSenderApi\Model\SubscribersPostRequest\Identifier;
+use AlexeyIbraimov\ExpertSenderApi\Model\TransactionalPostRequest\Receiver;
+use AlexeyIbraimov\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
+use AlexeyIbraimov\ExpertSenderApi\ExpertSenderApi;
+use AlexeyIbraimov\ExpertSenderApi\Model\SubscribersPostRequest\SubscriberInfo;
+use AlexeyIbraimov\ExpertSenderApi\RequestSender;
 use GuzzleHttp\Client;
 use PHPUnit\Framework\Assert;
 use Symfony\Component\EventDispatcher\EventDispatcher;

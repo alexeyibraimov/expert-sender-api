@@ -1,18 +1,18 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Request;
+namespace AlexeyIbraimov\ExpertSenderApi\Request;
 
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
-use Citilink\ExpertSenderApi\Model\DataTablesGetDataPostRequest\OrderByRule;
-use Citilink\ExpertSenderApi\Model\WhereCondition;
-use Citilink\ExpertSenderApi\RequestInterface;
-use Citilink\ExpertSenderApi\Traits\WhereConditionToXmlConverterTrait;
+use AlexeyIbraimov\ExpertSenderApi\Enum\HttpMethod;
+use AlexeyIbraimov\ExpertSenderApi\Model\DataTablesGetDataPostRequest\OrderByRule;
+use AlexeyIbraimov\ExpertSenderApi\Model\WhereCondition;
+use AlexeyIbraimov\ExpertSenderApi\RequestInterface;
+use AlexeyIbraimov\ExpertSenderApi\Traits\WhereConditionToXmlConverterTrait;
 
 /**
  * Request for POST /Api/DataTablesGetData
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class DataTablesGetDataPostRequest implements RequestInterface
 {

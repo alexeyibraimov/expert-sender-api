@@ -1,19 +1,19 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi;
+namespace AlexeyIbraimov\ExpertSenderApi;
 
-use Citilink\ExpertSenderApi\Enum\SubscriberPropertySource;
-use Citilink\ExpertSenderApi\Enum\SubscribersResponse\SubscriberPropertyType;
-use Citilink\ExpertSenderApi\Exception\ParseResponseException;
-use Citilink\ExpertSenderApi\Model\SubscriberData;
-use Citilink\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberProperty;
-use Citilink\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberPropertyValue;
+use AlexeyIbraimov\ExpertSenderApi\Enum\SubscriberPropertySource;
+use AlexeyIbraimov\ExpertSenderApi\Enum\SubscribersResponse\SubscriberPropertyType;
+use AlexeyIbraimov\ExpertSenderApi\Exception\ParseResponseException;
+use AlexeyIbraimov\ExpertSenderApi\Model\SubscriberData;
+use AlexeyIbraimov\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberProperty;
+use AlexeyIbraimov\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberPropertyValue;
 
 /**
  * Subscriber data parser
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class SubscriberDataParser
 {

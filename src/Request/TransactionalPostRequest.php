@@ -1,20 +1,20 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Request;
+namespace AlexeyIbraimov\ExpertSenderApi\Request;
 
-use Citilink\ExpertSenderApi\Model\TransactionalPostRequest\Attachment;
-use Citilink\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
-use Citilink\ExpertSenderApi\Model\TransactionalPostRequest\Receiver;
-use Citilink\ExpertSenderApi\RequestInterface;
-use Citilink\ExpertSenderApi\Utils;
+use AlexeyIbraimov\ExpertSenderApi\Model\TransactionalPostRequest\Attachment;
+use AlexeyIbraimov\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
+use AlexeyIbraimov\ExpertSenderApi\Enum\HttpMethod;
+use AlexeyIbraimov\ExpertSenderApi\Model\TransactionalPostRequest\Receiver;
+use AlexeyIbraimov\ExpertSenderApi\RequestInterface;
+use AlexeyIbraimov\ExpertSenderApi\Utils;
 use Webmozart\Assert\Assert;
 
 /**
  * Send transactional message request
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class TransactionalPostRequest implements RequestInterface
 {

@@ -1,16 +1,16 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Response;
+namespace AlexeyIbraimov\ExpertSenderApi\Tests\Response;
 
-use Citilink\ExpertSenderApi\Response;
-use Citilink\ExpertSenderApi\Response\GetSegmentSizeGetResponse;
+use AlexeyIbraimov\ExpertSenderApi\Response;
+use AlexeyIbraimov\ExpertSenderApi\Response\GetSegmentSizeGetResponse;
 use PHPUnit\Framework\Assert;
 
 /**
  * GetSegmentSizeGetResponseTest
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class GetSegmentSizeGetResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -46,7 +46,7 @@ class GetSegmentSizeGetResponseTest extends \PHPUnit_Framework_TestCase
     /**
      * Test
      *
-     * @expectedException \Citilink\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException
+     * @expectedException \AlexeyIbraimov\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException
      */
     public function testGetSizeThrowsExceptionIfResponseIsNotOk()
     {
@@ -76,7 +76,7 @@ class GetSegmentSizeGetResponseTest extends \PHPUnit_Framework_TestCase
     /**
      * Test
      *
-     * @expectedException \Citilink\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException
+     * @expectedException \AlexeyIbraimov\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException
      */
     public function testGetCountDateThrowsExceptionIfResponseIsNotOk()
     {

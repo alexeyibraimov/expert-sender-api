@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Model\RemovedSubscribersGetResponse;
+namespace AlexeyIbraimov\ExpertSenderApi\Model\RemovedSubscribersGetResponse;
 
-use Citilink\ExpertSenderApi\Model\SubscriberData;
+use AlexeyIbraimov\ExpertSenderApi\Model\SubscriberData;
 
 /**
  * Removed subscriber
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class RemovedSubscriber
 {

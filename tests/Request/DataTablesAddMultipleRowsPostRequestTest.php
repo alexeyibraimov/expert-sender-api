@@ -1,18 +1,18 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Request;
+namespace AlexeyIbraimov\ExpertSenderApi\Tests\Request;
 
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
-use Citilink\ExpertSenderApi\Model\Column;
-use Citilink\ExpertSenderApi\Model\DataTablesAddMultipleRowsPostRequest\Row;
-use Citilink\ExpertSenderApi\Request\DataTablesAddMultipleRowsPostRequest;
+use AlexeyIbraimov\ExpertSenderApi\Enum\HttpMethod;
+use AlexeyIbraimov\ExpertSenderApi\Model\Column;
+use AlexeyIbraimov\ExpertSenderApi\Model\DataTablesAddMultipleRowsPostRequest\Row;
+use AlexeyIbraimov\ExpertSenderApi\Request\DataTablesAddMultipleRowsPostRequest;
 use PHPUnit\Framework\Assert;
 
 /**
  * DataTablesAddMultipleRowsPostRequestTest
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class DataTablesAddMultipleRowsPostRequestTest extends \PHPUnit_Framework_TestCase
 {

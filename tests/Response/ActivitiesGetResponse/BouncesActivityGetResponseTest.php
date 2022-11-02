@@ -1,19 +1,20 @@
+
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Response\ActivitiesGetResponse;
+namespace AlexeyIbraimov\ExpertSenderApi\Tests\Response\ActivitiesGetResponse;
 
-use Citilink\ExpertSenderApi\Enum\ActivitiesGetRequest\BounceReason;
-use Citilink\ExpertSenderApi\Model\ActivitiesGetResponse\BounceActivity;
-use Citilink\ExpertSenderApi\Response;
-use Citilink\ExpertSenderApi\Response\ActivitiesGetResponse\BouncesActivityGetResponse;
+use AlexeyIbraimov\ExpertSenderApi\Enum\ActivitiesGetRequest\BounceReason;
+use AlexeyIbraimov\ExpertSenderApi\Model\ActivitiesGetResponse\BounceActivity;
+use AlexeyIbraimov\ExpertSenderApi\Response;
+use AlexeyIbraimov\ExpertSenderApi\Response\ActivitiesGetResponse\BouncesActivityGetResponse;
 use function iter\toArray;
 use PHPUnit\Framework\Assert;
 
 /**
  * BouncesActivityGetResponseTest
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class BouncesActivityGetResponseTest extends \PHPUnit_Framework_TestCase
 {

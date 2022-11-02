@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Enum\SubscribersResponse;
+namespace AlexeyIbraimov\ExpertSenderApi\Enum\SubscribersResponse;
 
 use MyCLabs\Enum\Enum;
 
@@ -13,7 +13,7 @@ use MyCLabs\Enum\Enum;
  * @method static StateOnListStatus SNOOZED()
  * @method static StateOnListStatus NOT_CONFIRMED()
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 final class StateOnListStatus extends Enum
 {

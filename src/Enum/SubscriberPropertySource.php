@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Enum;
+namespace AlexeyIbraimov\ExpertSenderApi\Enum;
 
 use MyCLabs\Enum\Enum;
 
@@ -15,7 +15,7 @@ use MyCLabs\Enum\Enum;
  * @method static SubscriberPropertySource PREF_CENTER()
  * @method static SubscriberPropertySource NOT_SET()
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 final class SubscriberPropertySource extends Enum
 {

@@ -1,18 +1,18 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Response;
+namespace AlexeyIbraimov\ExpertSenderApi\Response;
 
-use Citilink\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
-use Citilink\ExpertSenderApi\Model\RemovedSubscribersGetResponse\RemovedSubscriber;
-use Citilink\ExpertSenderApi\ResponseInterface;
-use Citilink\ExpertSenderApi\SpecificXmlMethodResponse;
-use Citilink\ExpertSenderApi\SubscriberDataParser;
+use AlexeyIbraimov\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
+use AlexeyIbraimov\ExpertSenderApi\Model\RemovedSubscribersGetResponse\RemovedSubscriber;
+use AlexeyIbraimov\ExpertSenderApi\ResponseInterface;
+use AlexeyIbraimov\ExpertSenderApi\SpecificXmlMethodResponse;
+use AlexeyIbraimov\ExpertSenderApi\SubscriberDataParser;
 
 /**
  * Response with removed subscribers data
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class RemovedSubscribersGetResponse extends SpecificXmlMethodResponse
 {

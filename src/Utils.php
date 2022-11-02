@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi;
+namespace AlexeyIbraimov\ExpertSenderApi;
 
-use Citilink\ExpertSenderApi\Exception\NotValidXmlException;
+use AlexeyIbraimov\ExpertSenderApi\Exception\NotValidXmlException;
 
 /**
  * Utils
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class Utils
 {

@@ -1,18 +1,18 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Request;
+namespace AlexeyIbraimov\ExpertSenderApi\Request;
 
-use Citilink\ExpertSenderApi\Enum\ActivitiesGetRequest\ActivityType;
-use Citilink\ExpertSenderApi\Enum\ActivitiesGetRequest\ReturnColumnsSet;
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
-use Citilink\ExpertSenderApi\RequestInterface;
-use Citilink\ExpertSenderApi\Utils;
+use AlexeyIbraimov\ExpertSenderApi\Enum\ActivitiesGetRequest\ActivityType;
+use AlexeyIbraimov\ExpertSenderApi\Enum\ActivitiesGetRequest\ReturnColumnsSet;
+use AlexeyIbraimov\ExpertSenderApi\Enum\HttpMethod;
+use AlexeyIbraimov\ExpertSenderApi\RequestInterface;
+use AlexeyIbraimov\ExpertSenderApi\Utils;
 
 /**
  * Get subscriber activity request
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class ActivitiesGetRequest implements RequestInterface
 {

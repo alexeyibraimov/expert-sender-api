@@ -1,18 +1,18 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Request;
+namespace AlexeyIbraimov\ExpertSenderApi\Request;
 
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
-use Citilink\ExpertSenderApi\Model\Column;
-use Citilink\ExpertSenderApi\RequestInterface;
-use Citilink\ExpertSenderApi\Traits\ColumnToXmlConverterTrait;
+use AlexeyIbraimov\ExpertSenderApi\Enum\HttpMethod;
+use AlexeyIbraimov\ExpertSenderApi\Model\Column;
+use AlexeyIbraimov\ExpertSenderApi\RequestInterface;
+use AlexeyIbraimov\ExpertSenderApi\Traits\ColumnToXmlConverterTrait;
 use Webmozart\Assert\Assert;
 
 /**
  * Request for POST /Api/DataTablesUpdateRow
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class DataTablesUpdateRowPostRequest implements RequestInterface
 {

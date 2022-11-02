@@ -1,17 +1,17 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Response\ActivitiesGetResponse;
+namespace AlexeyIbraimov\ExpertSenderApi\Response\ActivitiesGetResponse;
 
-use Citilink\ExpertSenderApi\Enum\ActivitiesGetRequest\RemovalReason;
-use Citilink\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
-use Citilink\ExpertSenderApi\Model\ActivitiesGetResponse\RemovalActivity;
-use Citilink\ExpertSenderApi\SpecificCsvMethodResponse;
+use AlexeyIbraimov\ExpertSenderApi\Enum\ActivitiesGetRequest\RemovalReason;
+use AlexeyIbraimov\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
+use AlexeyIbraimov\ExpertSenderApi\Model\ActivitiesGetResponse\RemovalActivity;
+use AlexeyIbraimov\ExpertSenderApi\SpecificCsvMethodResponse;
 
 /**
  * Removals activity get response
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class RemovalsActivityGetResponse extends SpecificCsvMethodResponse
 {

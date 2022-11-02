@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Model;
+namespace AlexeyIbraimov\ExpertSenderApi\Model;
 
 /**
  * Error message
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class ErrorMessage
 {

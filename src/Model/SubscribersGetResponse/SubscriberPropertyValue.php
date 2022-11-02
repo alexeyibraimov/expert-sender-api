@@ -1,15 +1,15 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Model\SubscribersGetResponse;
+namespace AlexeyIbraimov\ExpertSenderApi\Model\SubscribersGetResponse;
 
-use Citilink\ExpertSenderApi\Enum\DataType;
-use Citilink\ExpertSenderApi\Exception\InvalidUseOfClassException;
+use AlexeyIbraimov\ExpertSenderApi\Enum\DataType;
+use AlexeyIbraimov\ExpertSenderApi\Exception\InvalidUseOfClassException;
 
 /**
  * Subscriber property value
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class SubscriberPropertyValue
 {

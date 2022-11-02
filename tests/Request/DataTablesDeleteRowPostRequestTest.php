@@ -1,17 +1,17 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Request;
+namespace AlexeyIbraimov\ExpertSenderApi\Tests\Request;
 
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
-use Citilink\ExpertSenderApi\Model\Column;
-use Citilink\ExpertSenderApi\Request\DataTablesDeleteRowPostRequest;
+use AlexeyIbraimov\ExpertSenderApi\Enum\HttpMethod;
+use AlexeyIbraimov\ExpertSenderApi\Model\Column;
+use AlexeyIbraimov\ExpertSenderApi\Request\DataTablesDeleteRowPostRequest;
 use PHPUnit\Framework\Assert;
 
 /**
  * DataTablesDeleteRowPostRequestTest
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class DataTablesDeleteRowPostRequestTest extends \PHPUnit_Framework_TestCase
 {

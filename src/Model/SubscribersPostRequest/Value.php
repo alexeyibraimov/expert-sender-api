@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Model\SubscribersPostRequest;
+namespace AlexeyIbraimov\ExpertSenderApi\Model\SubscribersPostRequest;
 
-use Citilink\ExpertSenderApi\Enum\DataType;
+use AlexeyIbraimov\ExpertSenderApi\Enum\DataType;
 
 /**
  * Value of property
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class Value
 {

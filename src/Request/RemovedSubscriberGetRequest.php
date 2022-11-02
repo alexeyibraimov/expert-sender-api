@@ -1,18 +1,18 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Request;
+namespace AlexeyIbraimov\ExpertSenderApi\Request;
 
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
-use Citilink\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\Option;
-use Citilink\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\RemoveType;
-use Citilink\ExpertSenderApi\RequestInterface;
+use AlexeyIbraimov\ExpertSenderApi\Enum\HttpMethod;
+use AlexeyIbraimov\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\Option;
+use AlexeyIbraimov\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\RemoveType;
+use AlexeyIbraimov\ExpertSenderApi\RequestInterface;
 use Webmozart\Assert\Assert;
 
 /**
  * Request for GET RemoveSubscribers
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class RemovedSubscriberGetRequest implements RequestInterface
 {

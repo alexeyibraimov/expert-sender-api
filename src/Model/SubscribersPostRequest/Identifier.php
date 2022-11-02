@@ -1,15 +1,15 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Model\SubscribersPostRequest;
+namespace AlexeyIbraimov\ExpertSenderApi\Model\SubscribersPostRequest;
 
-use Citilink\ExpertSenderApi\Enum\SubscribersPostRequest\MatchingMode;
-use Citilink\ExpertSenderApi\Exception\InvalidUseOfClassException;
+use AlexeyIbraimov\ExpertSenderApi\Enum\SubscribersPostRequest\MatchingMode;
+use AlexeyIbraimov\ExpertSenderApi\Exception\InvalidUseOfClassException;
 
 /**
  * Identifier of subscriber for add/edit request
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class Identifier
 {

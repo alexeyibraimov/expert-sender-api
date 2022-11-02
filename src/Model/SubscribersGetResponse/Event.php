@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Model\SubscribersGetResponse;
+namespace AlexeyIbraimov\ExpertSenderApi\Model\SubscribersGetResponse;
 
 /**
  * Event from subscriber's events history
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class Event
 {

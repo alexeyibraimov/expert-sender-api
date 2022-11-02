@@ -1,15 +1,15 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Model;
+namespace AlexeyIbraimov\ExpertSenderApi\Model;
 
-use Citilink\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
+use AlexeyIbraimov\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
 use Webmozart\Assert\Assert;
 
 /**
  * Where condition to filter data from tables
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class WhereCondition
 {

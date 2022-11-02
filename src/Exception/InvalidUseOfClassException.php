@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Exception;
+namespace AlexeyIbraimov\ExpertSenderApi\Exception;
 
 /**
  * Exception when somehow someone break architecture of class
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class InvalidUseOfClassException extends ExpertSenderApiException
 {

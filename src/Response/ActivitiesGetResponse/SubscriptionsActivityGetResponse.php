@@ -1,16 +1,16 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Response\ActivitiesGetResponse;
+namespace AlexeyIbraimov\ExpertSenderApi\Response\ActivitiesGetResponse;
 
-use Citilink\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
-use Citilink\ExpertSenderApi\Model\ActivitiesGetResponse\SubscriptionActivity;
-use Citilink\ExpertSenderApi\SpecificCsvMethodResponse;
+use AlexeyIbraimov\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
+use AlexeyIbraimov\ExpertSenderApi\Model\ActivitiesGetResponse\SubscriptionActivity;
+use AlexeyIbraimov\ExpertSenderApi\SpecificCsvMethodResponse;
 
 /**
  * Response with subscription activities
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class SubscriptionsActivityGetResponse extends SpecificCsvMethodResponse
 {

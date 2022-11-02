@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Enum\DataTablesDeleteRowsPostRequest;
+namespace AlexeyIbraimov\ExpertSenderApi\Enum\DataTablesDeleteRowsPostRequest;
 
 use MyCLabs\Enum\Enum;
 
@@ -14,7 +14,7 @@ use MyCLabs\Enum\Enum;
  * @method static FilterOperator GE()
  * @method static FilterOperator LE()
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class FilterOperator extends Enum
 {

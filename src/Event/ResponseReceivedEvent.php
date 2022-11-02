@@ -1,15 +1,15 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Event;
+namespace AlexeyIbraimov\ExpertSenderApi\Event;
 
-use Citilink\ExpertSenderApi\ResponseInterface;
+use AlexeyIbraimov\ExpertSenderApi\ResponseInterface;
 use Symfony\Component\EventDispatcher\Event;
 
 /**
  * Event after response received
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class ResponseReceivedEvent extends Event
 {

@@ -1,18 +1,18 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Request;
+namespace AlexeyIbraimov\ExpertSenderApi\Tests\Request;
 
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
-use Citilink\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\Option;
-use Citilink\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\RemoveType;
-use Citilink\ExpertSenderApi\Request\RemovedSubscriberGetRequest;
+use AlexeyIbraimov\ExpertSenderApi\Enum\HttpMethod;
+use AlexeyIbraimov\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\Option;
+use AlexeyIbraimov\ExpertSenderApi\Enum\RemovedSubscribersGetRequest\RemoveType;
+use AlexeyIbraimov\ExpertSenderApi\Request\RemovedSubscriberGetRequest;
 use PHPUnit\Framework\Assert;
 
 /**
  * RemovedSubscriberGetRequestTest
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class RemovedSubscriberGetRequestTest extends \PHPUnit_Framework_TestCase
 {

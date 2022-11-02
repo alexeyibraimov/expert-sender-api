@@ -1,15 +1,15 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Model\DataTablesDeleteRowsPostRequest;
+namespace AlexeyIbraimov\ExpertSenderApi\Model\DataTablesDeleteRowsPostRequest;
 
-use Citilink\ExpertSenderApi\Enum\DataTablesDeleteRowsPostRequest\FilterOperator;
+use AlexeyIbraimov\ExpertSenderApi\Enum\DataTablesDeleteRowsPostRequest\FilterOperator;
 use Webmozart\Assert\Assert;
 
 /**
  * Filter for delete many rows
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class Filter
 {

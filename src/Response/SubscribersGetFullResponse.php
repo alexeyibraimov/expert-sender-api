@@ -1,17 +1,17 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Response;
+namespace AlexeyIbraimov\ExpertSenderApi\Response;
 
-use Citilink\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
-use Citilink\ExpertSenderApi\Model\SubscriberData;
-use Citilink\ExpertSenderApi\ResponseInterface;
-use Citilink\ExpertSenderApi\SubscriberDataParser;
+use AlexeyIbraimov\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
+use AlexeyIbraimov\ExpertSenderApi\Model\SubscriberData;
+use AlexeyIbraimov\ExpertSenderApi\ResponseInterface;
+use AlexeyIbraimov\ExpertSenderApi\SubscriberDataParser;
 
 /**
  * Full info about subscriber
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class SubscribersGetFullResponse extends SubscribersGetLongResponse
 {

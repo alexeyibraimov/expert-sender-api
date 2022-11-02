@@ -1,16 +1,16 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Response;
+namespace AlexeyIbraimov\ExpertSenderApi\Response;
 
-use Citilink\ExpertSenderApi\Model\SubscribersPostResponse\SubscriberData;
-use Citilink\ExpertSenderApi\SpecificXmlMethodResponse;
-use Citilink\ExpertSenderApi\Utils;
+use AlexeyIbraimov\ExpertSenderApi\Model\SubscribersPostResponse\SubscriberData;
+use AlexeyIbraimov\ExpertSenderApi\SpecificXmlMethodResponse;
+use AlexeyIbraimov\ExpertSenderApi\Utils;
 
 /**
  * Response of add/edit subscriber request
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class SubscribersPostResponse extends SpecificXmlMethodResponse
 {

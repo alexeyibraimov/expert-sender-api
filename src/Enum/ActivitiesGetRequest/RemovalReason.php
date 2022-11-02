@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Enum\ActivitiesGetRequest;
+namespace AlexeyIbraimov\ExpertSenderApi\Enum\ActivitiesGetRequest;
 
 use MyCLabs\Enum\Enum;
 
@@ -15,7 +15,7 @@ use MyCLabs\Enum\Enum;
  * @method static RemovalReason USER_UNKNOWN()
  * @method static RemovalReason API()
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 final class RemovalReason extends Enum
 {

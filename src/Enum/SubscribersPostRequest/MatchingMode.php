@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Enum\SubscribersPostRequest;
+namespace AlexeyIbraimov\ExpertSenderApi\Enum\SubscribersPostRequest;
 
 use MyCLabs\Enum\Enum;
 
@@ -15,7 +15,7 @@ use MyCLabs\Enum\Enum;
  * @method static MatchingMode ID()
  * @method static MatchingMode PHONE()
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 final class MatchingMode extends Enum
 {

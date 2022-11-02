@@ -1,26 +1,26 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Resource;
+namespace AlexeyIbraimov\ExpertSenderApi\Resource;
 
-use Citilink\ExpertSenderApi\AbstractResource;
-use Citilink\ExpertSenderApi\Enum\ActivitiesGetRequest\ActivityType;
-use Citilink\ExpertSenderApi\Enum\ActivitiesGetRequest\ReturnColumnsSet;
-use Citilink\ExpertSenderApi\Request\ActivitiesGetRequest;
-use Citilink\ExpertSenderApi\Response\ActivitiesGetResponse\BouncesActivityGetResponse;
-use Citilink\ExpertSenderApi\Response\ActivitiesGetResponse\ClicksActivityGetResponse;
-use Citilink\ExpertSenderApi\Response\ActivitiesGetResponse\ComplaintsActivityGetResponse;
-use Citilink\ExpertSenderApi\Response\ActivitiesGetResponse\ConfirmationsActivityGetResponse;
-use Citilink\ExpertSenderApi\Response\ActivitiesGetResponse\GoalsActivityGetResponse;
-use Citilink\ExpertSenderApi\Response\ActivitiesGetResponse\OpensActivityGetResponse;
-use Citilink\ExpertSenderApi\Response\ActivitiesGetResponse\RemovalsActivityGetResponse;
-use Citilink\ExpertSenderApi\Response\ActivitiesGetResponse\SendsActivityGetResponse;
-use Citilink\ExpertSenderApi\Response\ActivitiesGetResponse\SubscriptionsActivityGetResponse;
+use AlexeyIbraimov\ExpertSenderApi\AbstractResource;
+use AlexeyIbraimov\ExpertSenderApi\Enum\ActivitiesGetRequest\ActivityType;
+use AlexeyIbraimov\ExpertSenderApi\Enum\ActivitiesGetRequest\ReturnColumnsSet;
+use AlexeyIbraimov\ExpertSenderApi\Request\ActivitiesGetRequest;
+use AlexeyIbraimov\ExpertSenderApi\Response\ActivitiesGetResponse\BouncesActivityGetResponse;
+use AlexeyIbraimov\ExpertSenderApi\Response\ActivitiesGetResponse\ClicksActivityGetResponse;
+use AlexeyIbraimov\ExpertSenderApi\Response\ActivitiesGetResponse\ComplaintsActivityGetResponse;
+use AlexeyIbraimov\ExpertSenderApi\Response\ActivitiesGetResponse\ConfirmationsActivityGetResponse;
+use AlexeyIbraimov\ExpertSenderApi\Response\ActivitiesGetResponse\GoalsActivityGetResponse;
+use AlexeyIbraimov\ExpertSenderApi\Response\ActivitiesGetResponse\OpensActivityGetResponse;
+use AlexeyIbraimov\ExpertSenderApi\Response\ActivitiesGetResponse\RemovalsActivityGetResponse;
+use AlexeyIbraimov\ExpertSenderApi\Response\ActivitiesGetResponse\SendsActivityGetResponse;
+use AlexeyIbraimov\ExpertSenderApi\Response\ActivitiesGetResponse\SubscriptionsActivityGetResponse;
 
 /**
  * Subscriber activity resource
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class SubscriberActivityResource extends AbstractResource
 {

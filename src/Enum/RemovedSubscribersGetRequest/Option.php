@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Enum\RemovedSubscribersGetRequest;
+namespace AlexeyIbraimov\ExpertSenderApi\Enum\RemovedSubscribersGetRequest;
 
 use MyCLabs\Enum\Enum;
 
@@ -10,7 +10,7 @@ use MyCLabs\Enum\Enum;
  *
  * @method static Option CUSTOMS()
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class Option extends Enum
 {

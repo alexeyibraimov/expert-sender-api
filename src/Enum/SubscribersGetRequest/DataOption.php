@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Enum\SubscribersGetRequest;
+namespace AlexeyIbraimov\ExpertSenderApi\Enum\SubscribersGetRequest;
 
 use MyCLabs\Enum\Enum;
 
@@ -15,7 +15,7 @@ use MyCLabs\Enum\Enum;
  * @method static DataOption FULL()
  * @method static DataOption EVENTS_HISTORY()
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 final class DataOption extends Enum
 {

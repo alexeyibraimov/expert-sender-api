@@ -1,17 +1,17 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Request;
+namespace AlexeyIbraimov\ExpertSenderApi\Request;
 
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
-use Citilink\ExpertSenderApi\Model\DataTablesDeleteRowsPostRequest\Filter;
-use Citilink\ExpertSenderApi\RequestInterface;
+use AlexeyIbraimov\ExpertSenderApi\Enum\HttpMethod;
+use AlexeyIbraimov\ExpertSenderApi\Model\DataTablesDeleteRowsPostRequest\Filter;
+use AlexeyIbraimov\ExpertSenderApi\RequestInterface;
 use Webmozart\Assert\Assert;
 
 /**
  * Request to delete rows
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class DataTablesDeleteRowsPostRequest implements RequestInterface
 {

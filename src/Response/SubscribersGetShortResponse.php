@@ -1,18 +1,18 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Response;
+namespace AlexeyIbraimov\ExpertSenderApi\Response;
 
-use Citilink\ExpertSenderApi\Enum\SubscribersResponse\StateOnListStatus;
-use Citilink\ExpertSenderApi\Exception\ParseResponseException;
-use Citilink\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
-use Citilink\ExpertSenderApi\Model\SubscribersGetResponse\StateOnList;
-use Citilink\ExpertSenderApi\SpecificXmlMethodResponse;
+use AlexeyIbraimov\ExpertSenderApi\Enum\SubscribersResponse\StateOnListStatus;
+use AlexeyIbraimov\ExpertSenderApi\Exception\ParseResponseException;
+use AlexeyIbraimov\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException;
+use AlexeyIbraimov\ExpertSenderApi\Model\SubscribersGetResponse\StateOnList;
+use AlexeyIbraimov\ExpertSenderApi\SpecificXmlMethodResponse;
 
 /**
  * Short information about subscriber
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class SubscribersGetShortResponse extends SpecificXmlMethodResponse
 {

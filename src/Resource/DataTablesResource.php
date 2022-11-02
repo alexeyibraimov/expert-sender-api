@@ -1,32 +1,32 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Resource;
+namespace AlexeyIbraimov\ExpertSenderApi\Resource;
 
-use Citilink\ExpertSenderApi\AbstractResource;
-use Citilink\ExpertSenderApi\Model\Column;
-use Citilink\ExpertSenderApi\Model\DataTablesAddMultipleRowsPostRequest\Row;
-use Citilink\ExpertSenderApi\Model\DataTablesDeleteRowsPostRequest\Filter;
-use Citilink\ExpertSenderApi\Model\DataTablesGetDataPostRequest\OrderByRule;
-use Citilink\ExpertSenderApi\Model\WhereCondition;
-use Citilink\ExpertSenderApi\Request\DataTablesAddMultipleRowsPostRequest;
-use Citilink\ExpertSenderApi\Request\DataTablesClearTableRequest;
-use Citilink\ExpertSenderApi\Request\DataTablesDeleteRowPostRequest;
-use Citilink\ExpertSenderApi\Request\DataTablesDeleteRowsPostRequest;
-use Citilink\ExpertSenderApi\Request\DataTablesGetDataCountRequest;
-use Citilink\ExpertSenderApi\Request\DataTablesGetDataPostRequest;
-use Citilink\ExpertSenderApi\Request\DataTablesGetTablesRequest;
-use Citilink\ExpertSenderApi\Request\DataTablesUpdateRowPostRequest;
-use Citilink\ExpertSenderApi\Response\CountResponse;
-use Citilink\ExpertSenderApi\Response\DataTablesGetTablesDetailsResponse;
-use Citilink\ExpertSenderApi\Response\DataTablesGetTablesSummaryResponse;
-use Citilink\ExpertSenderApi\ResponseInterface;
-use Citilink\ExpertSenderApi\SpecificCsvMethodResponse;
+use AlexeyIbraimov\ExpertSenderApi\AbstractResource;
+use AlexeyIbraimov\ExpertSenderApi\Model\Column;
+use AlexeyIbraimov\ExpertSenderApi\Model\DataTablesAddMultipleRowsPostRequest\Row;
+use AlexeyIbraimov\ExpertSenderApi\Model\DataTablesDeleteRowsPostRequest\Filter;
+use AlexeyIbraimov\ExpertSenderApi\Model\DataTablesGetDataPostRequest\OrderByRule;
+use AlexeyIbraimov\ExpertSenderApi\Model\WhereCondition;
+use AlexeyIbraimov\ExpertSenderApi\Request\DataTablesAddMultipleRowsPostRequest;
+use AlexeyIbraimov\ExpertSenderApi\Request\DataTablesClearTableRequest;
+use AlexeyIbraimov\ExpertSenderApi\Request\DataTablesDeleteRowPostRequest;
+use AlexeyIbraimov\ExpertSenderApi\Request\DataTablesDeleteRowsPostRequest;
+use AlexeyIbraimov\ExpertSenderApi\Request\DataTablesGetDataCountRequest;
+use AlexeyIbraimov\ExpertSenderApi\Request\DataTablesGetDataPostRequest;
+use AlexeyIbraimov\ExpertSenderApi\Request\DataTablesGetTablesRequest;
+use AlexeyIbraimov\ExpertSenderApi\Request\DataTablesUpdateRowPostRequest;
+use AlexeyIbraimov\ExpertSenderApi\Response\CountResponse;
+use AlexeyIbraimov\ExpertSenderApi\Response\DataTablesGetTablesDetailsResponse;
+use AlexeyIbraimov\ExpertSenderApi\Response\DataTablesGetTablesSummaryResponse;
+use AlexeyIbraimov\ExpertSenderApi\ResponseInterface;
+use AlexeyIbraimov\ExpertSenderApi\SpecificCsvMethodResponse;
 
 /**
  * Data tables resource
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class DataTablesResource extends AbstractResource
 {

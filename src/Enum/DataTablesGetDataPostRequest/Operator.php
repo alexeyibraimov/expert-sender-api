@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Enum\DataTablesGetDataPostRequest;
+namespace AlexeyIbraimov\ExpertSenderApi\Enum\DataTablesGetDataPostRequest;
 
 use MyCLabs\Enum\Enum;
 
@@ -13,7 +13,7 @@ use MyCLabs\Enum\Enum;
  * @method static Operator LOWER()
  * @method static Operator LIKE()
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 final class Operator extends Enum
 {

@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Request;
+namespace AlexeyIbraimov\ExpertSenderApi\Tests\Request;
 
-use Citilink\ExpertSenderApi\Model\TransactionalPostRequest\Attachment;
-use Citilink\ExpertSenderApi\Model\TransactionalPostRequest\Receiver;
-use Citilink\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
-use Citilink\ExpertSenderApi\Request\TransactionalPostRequest;
+use AlexeyIbraimov\ExpertSenderApi\Model\TransactionalPostRequest\Attachment;
+use AlexeyIbraimov\ExpertSenderApi\Model\TransactionalPostRequest\Receiver;
+use AlexeyIbraimov\ExpertSenderApi\Model\TransactionalPostRequest\Snippet;
+use AlexeyIbraimov\ExpertSenderApi\Enum\HttpMethod;
+use AlexeyIbraimov\ExpertSenderApi\Request\TransactionalPostRequest;
 
 class TransactionalPostRequestTest extends \PHPUnit_Framework_TestCase
 {

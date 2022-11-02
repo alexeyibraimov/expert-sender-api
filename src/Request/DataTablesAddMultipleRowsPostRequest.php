@@ -1,17 +1,17 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Request;
+namespace AlexeyIbraimov\ExpertSenderApi\Request;
 
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
-use Citilink\ExpertSenderApi\Model\DataTablesAddMultipleRowsPostRequest\Row;
-use Citilink\ExpertSenderApi\RequestInterface;
-use Citilink\ExpertSenderApi\Traits\ColumnToXmlConverterTrait;
+use AlexeyIbraimov\ExpertSenderApi\Enum\HttpMethod;
+use AlexeyIbraimov\ExpertSenderApi\Model\DataTablesAddMultipleRowsPostRequest\Row;
+use AlexeyIbraimov\ExpertSenderApi\RequestInterface;
+use AlexeyIbraimov\ExpertSenderApi\Traits\ColumnToXmlConverterTrait;
 
 /**
  * Request for POST DataTablesAddMultipleRows
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class DataTablesAddMultipleRowsPostRequest implements RequestInterface
 {

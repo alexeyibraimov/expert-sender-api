@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Response;
+namespace AlexeyIbraimov\ExpertSenderApi\Tests\Response;
 
-use Citilink\ExpertSenderApi\Response;
-use Citilink\ExpertSenderApi\Response\TimeGetResponse;
+use AlexeyIbraimov\ExpertSenderApi\Response;
+use AlexeyIbraimov\ExpertSenderApi\Response\TimeGetResponse;
 use PHPUnit\Framework\Assert;
 
 class TimeGetResponseTest extends \PHPUnit_Framework_TestCase
@@ -30,7 +30,7 @@ class TimeGetResponseTest extends \PHPUnit_Framework_TestCase
     /**
      * Test
      *
-     * @expectedException \Citilink\ExpertSenderApi\Exception\ParseResponseException
+     * @expectedException \AlexeyIbraimov\ExpertSenderApi\Exception\ParseResponseException
      */
     public function testThrowExceptionIfDateStringIsWrong()
     {
@@ -56,7 +56,7 @@ class TimeGetResponseTest extends \PHPUnit_Framework_TestCase
     /**
      * Test
      *
-     * @expectedException \Citilink\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException
+     * @expectedException \AlexeyIbraimov\ExpertSenderApi\Exception\TryToAccessDataFromErrorResponseException
      */
     public function testThrowExceptionIfTryingGetServerTimeOnNotOkResponse()
     {

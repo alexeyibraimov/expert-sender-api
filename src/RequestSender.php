@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi;
+namespace AlexeyIbraimov\ExpertSenderApi;
 
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
-use Citilink\ExpertSenderApi\Event\RequestExceptionThrown;
-use Citilink\ExpertSenderApi\Event\ResponseReceivedEvent;
+use AlexeyIbraimov\ExpertSenderApi\Enum\HttpMethod;
+use AlexeyIbraimov\ExpertSenderApi\Event\RequestExceptionThrown;
+use AlexeyIbraimov\ExpertSenderApi\Event\ResponseReceivedEvent;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Exception\RequestException;
 use Symfony\Component\EventDispatcher\EventDispatcher;
@@ -14,7 +14,7 @@ use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 /**
  * Expert Sender request sender
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class RequestSender implements RequestSenderInterface
 {

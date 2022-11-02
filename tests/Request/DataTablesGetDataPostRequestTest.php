@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Request;
+namespace AlexeyIbraimov\ExpertSenderApi\Tests\Request;
 
-use Citilink\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Direction;
-use Citilink\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
-use Citilink\ExpertSenderApi\Model\DataTablesGetDataPostRequest\OrderByRule;
-use Citilink\ExpertSenderApi\Model\WhereCondition;
-use Citilink\ExpertSenderApi\Request\DataTablesGetDataPostRequest;
+use AlexeyIbraimov\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Direction;
+use AlexeyIbraimov\ExpertSenderApi\Enum\DataTablesGetDataPostRequest\Operator;
+use AlexeyIbraimov\ExpertSenderApi\Enum\HttpMethod;
+use AlexeyIbraimov\ExpertSenderApi\Model\DataTablesGetDataPostRequest\OrderByRule;
+use AlexeyIbraimov\ExpertSenderApi\Model\WhereCondition;
+use AlexeyIbraimov\ExpertSenderApi\Request\DataTablesGetDataPostRequest;
 use PHPUnit\Framework\Assert;
 
 class DataTablesGetDataPostRequestTest extends \PHPUnit_Framework_TestCase

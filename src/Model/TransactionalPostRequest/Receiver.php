@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Model\TransactionalPostRequest;
+namespace AlexeyIbraimov\ExpertSenderApi\Model\TransactionalPostRequest;
 
 /**
  * Receiver of transactional message
  *
  * @see https://sites.google.com/a/expertsender.com/api-documentation/methods/messages/send-transactional-messages
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class Receiver
 {

@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Model;
+namespace AlexeyIbraimov\ExpertSenderApi\Model;
 
-use Citilink\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberProperty;
+use AlexeyIbraimov\ExpertSenderApi\Model\SubscribersGetResponse\SubscriberProperty;
 
 /**
  * Subscriber's data
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class SubscriberData
 {

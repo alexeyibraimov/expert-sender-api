@@ -1,17 +1,17 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Response;
+namespace AlexeyIbraimov\ExpertSenderApi\Tests\Response;
 
-use Citilink\ExpertSenderApi\Model\SubscribersGetResponse\Event;
-use Citilink\ExpertSenderApi\Response;
-use Citilink\ExpertSenderApi\Response\SubscribersGetEventsHistoryResponse;
+use AlexeyIbraimov\ExpertSenderApi\Model\SubscribersGetResponse\Event;
+use AlexeyIbraimov\ExpertSenderApi\Response;
+use AlexeyIbraimov\ExpertSenderApi\Response\SubscribersGetEventsHistoryResponse;
 use PHPUnit\Framework\Assert;
 
 /**
  * SubscribersGetEventsHistoryResponseTest
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class SubscribersGetEventsHistoryResponseTest extends \PHPUnit_Framework_TestCase
 {

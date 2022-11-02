@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Request;
+namespace AlexeyIbraimov\ExpertSenderApi\Tests\Request;
 
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
-use Citilink\ExpertSenderApi\Model\Column;
-use Citilink\ExpertSenderApi\Request\DataTablesUpdateRowPostRequest;
+use AlexeyIbraimov\ExpertSenderApi\Enum\HttpMethod;
+use AlexeyIbraimov\ExpertSenderApi\Model\Column;
+use AlexeyIbraimov\ExpertSenderApi\Request\DataTablesUpdateRowPostRequest;
 use PHPUnit\Framework\Assert;
 
 class DataTablesUpdateRowRequestTest extends \PHPUnit_Framework_TestCase

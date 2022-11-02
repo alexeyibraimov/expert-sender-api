@@ -1,18 +1,18 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Tests\Response;
+namespace AlexeyIbraimov\ExpertSenderApi\Tests\Response;
 
-use Citilink\ExpertSenderApi\Model\DataTablesGetTablesSummaryResponse\TableSummary;
-use Citilink\ExpertSenderApi\Response;
-use Citilink\ExpertSenderApi\Response\DataTablesGetTablesSummaryResponse;
+use AlexeyIbraimov\ExpertSenderApi\Model\DataTablesGetTablesSummaryResponse\TableSummary;
+use AlexeyIbraimov\ExpertSenderApi\Response;
+use AlexeyIbraimov\ExpertSenderApi\Response\DataTablesGetTablesSummaryResponse;
 use function iter\toArray;
 use PHPUnit\Framework\Assert;
 
 /**
  * DataTablesGetTablesSummaryResponseTest
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class DataTablesGetTablesSummaryResponseTest extends \PHPUnit_Framework_TestCase
 {

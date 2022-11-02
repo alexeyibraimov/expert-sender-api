@@ -1,15 +1,15 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Model\DataTablesAddMultipleRowsPostRequest;
+namespace AlexeyIbraimov\ExpertSenderApi\Model\DataTablesAddMultipleRowsPostRequest;
 
-use Citilink\ExpertSenderApi\Model\Column;
+use AlexeyIbraimov\ExpertSenderApi\Model\Column;
 use Webmozart\Assert\Assert;
 
 /**
  * Row
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class Row
 {

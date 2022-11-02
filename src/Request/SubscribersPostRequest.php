@@ -1,15 +1,15 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Request;
+namespace AlexeyIbraimov\ExpertSenderApi\Request;
 
-use Citilink\ExpertSenderApi\Enum\HttpMethod;
-use Citilink\ExpertSenderApi\Enum\SubscribersPostRequest\MatchingMode;
-use Citilink\ExpertSenderApi\Exception\ExpertSenderApiException;
-use Citilink\ExpertSenderApi\Model\SubscribersPostRequest\Options;
-use Citilink\ExpertSenderApi\Model\SubscribersPostRequest\SubscriberInfo;
-use Citilink\ExpertSenderApi\RequestInterface;
-use Citilink\ExpertSenderApi\Utils;
+use AlexeyIbraimov\ExpertSenderApi\Enum\HttpMethod;
+use AlexeyIbraimov\ExpertSenderApi\Enum\SubscribersPostRequest\MatchingMode;
+use AlexeyIbraimov\ExpertSenderApi\Exception\ExpertSenderApiException;
+use AlexeyIbraimov\ExpertSenderApi\Model\SubscribersPostRequest\Options;
+use AlexeyIbraimov\ExpertSenderApi\Model\SubscribersPostRequest\SubscriberInfo;
+use AlexeyIbraimov\ExpertSenderApi\RequestInterface;
+use AlexeyIbraimov\ExpertSenderApi\Utils;
 use Webmozart\Assert\Assert;
 
 /**
@@ -17,7 +17,7 @@ use Webmozart\Assert\Assert;
  *
  * @see https://sites.google.com/a/expertsender.com/api-documentation/methods/subscribers/add-subscriber
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 class SubscribersPostRequest implements RequestInterface
 {

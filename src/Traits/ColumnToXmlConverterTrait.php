@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Citilink\ExpertSenderApi\Traits;
+namespace AlexeyIbraimov\ExpertSenderApi\Traits;
 
-use Citilink\ExpertSenderApi\Model\Column;
+use AlexeyIbraimov\ExpertSenderApi\Model\Column;
 
 /**
  * Column to xml converter trait
  *
- * @author Nikita Sapogov <sapogov.n@citilink.ru>
+ * @author Nikita Sapogov <sapogov.n@alexeyibraimov.ru>
  */
 trait ColumnToXmlConverterTrait
 {

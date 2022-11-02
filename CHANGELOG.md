@@ -20,7 +20,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Get rows count request
 - Get list of tables request
 ### Deprecated
-- \Citilink\ExpertSenderApi\Model\DataTablesGetDataPostRequest\WhereCondition, use \Citilink\ExpertSenderApi\Model\WhereCondition insted
+- \AlexeyIbraimov\ExpertSenderApi\Model\DataTablesGetDataPostRequest\WhereCondition, use \AlexeyIbraimov\ExpertSenderApi\Model\WhereCondition insted
 
 ## [1.1.0] - 2017-08-17
 ### Added
@@ -43,8 +43,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Removed
 - all deprecated features
 ### Changed
-- renamed SortOrder into Direction and moved in Citilink\ExpertSenderApi\Enum\DataTablesGetDataPostRequest namespace
-- moved Operator in Citilink\ExpertSenderApi\Enum\DataTablesGetDataPostRequest
+- renamed SortOrder into Direction and moved in AlexeyIbraimov\ExpertSenderApi\Enum\DataTablesGetDataPostRequest namespace
+- moved Operator in AlexeyIbraimov\ExpertSenderApi\Enum\DataTablesGetDataPostRequest
 - changed argument type for ExpertSenderApi from RequestSender to RequestSenderInterface
 
 ## [0.4.0] - 2017-08-09
